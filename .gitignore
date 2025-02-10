@@ -1,0 +1,14 @@
+model_weights/*
+figures/*
+gpt-2/wandb/*
+gpt-2/results/*
+data/*
+
+*.pth
+*.pyc
+src/ControlNet
+src/ControlNet/*
+src/ebsynth
+src/ebsynth/*
+
+.DS_Store
