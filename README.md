@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of our paper:
 
- **[Systematic Outliers in Large Language Models]** [[arXiv]]() | [[OpenReview]](https://openreview.net/forum?id=rLX7Vyyzus)   
+ **[Systematic Outliers in Large Language Models]** [[arXiv]](https://arxiv.org/abs/2502.06415) | [[OpenReview]](https://openreview.net/forum?id=rLX7Vyyzus)   
  *Yongqi An, Xu Zhao, Tao Yu, Ming Tang, Jinqiao Wang*   
  *Institute of Automation, Chinese Academy of Sciences*  
 
@@ -122,4 +122,10 @@ This project is released under the MIT license. Please see the [LICENSE](LICENSE
 
 ## Reference 
 ```bibtex
+@article{an2025systematic,
+      title={Systematic Outliers in Large Language Models}, 
+      author={Yongqi An and Xu Zhao and Tao Yu and Ming Tang and Jinqiao Wang},
+      year={2025},
+      journal={arXiv preprint arXiv:2502.06415}
+}
 ```
