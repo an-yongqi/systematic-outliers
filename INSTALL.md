@@ -20,3 +20,18 @@ pip install timm==0.9.12 transformers==4.44.2 accelerate==0.23.0 datasets==2.14.
 ## Pretrained Models
 
 - **LLM Models**: To use pretrained LLM models, update the `CACHE_DIR_BASE` variable in the [model_dict.py](lib/model_dict.py) file to point to the directory containing the pretrained model weights.
+
+## Reference File Structure
+The project structure follows the organization below. You can refer to the following structure for model weights and data preparation:
+```
+systematic-outliers/
+│── data/
+│   ├── openwebtext/
+│── gpt-2/
+│   ├── results/
+│   ├── ...
+│── model_weights/
+│   ├── Llama-2-7b-hf/
+│   ├── ...
+│── ...
+```

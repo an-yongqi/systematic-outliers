@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of our paper:
 
- **[Systematic Outliers in Large Language Models]** [[arXiv]](https://arxiv.org/abs/2312.11983) | [[OpenReview]](https://openreview.net/forum?id=rLX7Vyyzus)   
+ **[Systematic Outliers in Large Language Models]** [[arXiv]]() | [[OpenReview]](https://openreview.net/forum?id=rLX7Vyyzus)   
  *Yongqi An, Xu Zhao, Tao Yu, Ming Tang, Jinqiao Wang*   
  *Institute of Automation, Chinese Academy of Sciences*  
 
@@ -113,6 +113,9 @@ These scripts are used to analyze the lifecycle of outliers, from their formatio
 
 #### Hypothesis Verification (`gpt-2/*`)
 You can see the [README.md](gpt-2/README.md) in gpt-2. You can train and analysis the gpt-2 to validate the role of systematic outliers in LLMs. (Figure 10, 11, 23)
+
+## Acknowledgement
+This repository is build upon the [massive-activations](https://github.com/locuslab/massive-activations) repository.
 
 ## License
 This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
