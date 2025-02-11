@@ -1,6 +1,6 @@
 #%%
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
 from types import SimpleNamespace
 import numpy as np
@@ -14,11 +14,11 @@ from lib.model_dict import MODEL_TITLE_DICT, MODEL_LAYER_ENABLE_DICT, ACTIVATION
 
 #%%
 args = SimpleNamespace(
-    model="llama2_13b_chat",
+    model="llama2_7b",
     seed=1,
     revision="main",
     access_token=None,
-    savedir="figures/appendix_ft_models"
+    savedir="figures/existence"
 )
 
 np.random.seed(args.seed)

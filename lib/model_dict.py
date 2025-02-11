@@ -1,6 +1,6 @@
 import monkey_patch as mp
 
-CACHE_DIR_BASE = "../model_weights"
+CACHE_DIR_BASE = "/public/anyongqi/systematic-outliers/model_weights"
 
 MODEL_DICT_LLMs = {
     ### llama2 model

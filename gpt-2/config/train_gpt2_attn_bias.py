@@ -1,5 +1,14 @@
-out_dir = 'results/attn_bias'
-data_dir = '../data/openwebtext'
+import os
+from base_path import BASE_PATH
+
+model_type = "gpt2_attn_bias"
+
+# Extract model variant from model_type
+model_variant = model_type.replace("gpt2_", "")
+
+# Adjust output directory dynamically
+out_dir = os.path.join(BASE_PATH, "gpt-2/results", model_variant)
+data_dir = os.path.join(BASE_PATH, "data/openwebtext")
 
 wandb_log = False
 wandb_project = 'systematic-outliers'
@@ -24,4 +33,8 @@ log_interval = 10
 # weight decay
 weight_decay = 1e-1
 
-model_type = "gpt2_attn_bias"
+# print(f"Base Path: {BASE_PATH}")
+# print(f"Data Dir: {data_dir}")
+# print(f"Model Type: {model_type}")
+# print(f"Model Variant: {model_variant}")
+# print(f"Output Dir: {out_dir}")
